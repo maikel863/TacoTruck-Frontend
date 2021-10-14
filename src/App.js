@@ -4,6 +4,7 @@ import Header from './components/Header';
 import NavBar from './components/NavBar';
 
 import './App.css';
+import TacoContainer from './components/TacoContainer';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
     <Switch>
       <Route exact path="/">
         <Header />
+      </Route>
+      <Route exact path="/tacos">
+        <TacoContainer />
       </Route>
     </Switch>
 

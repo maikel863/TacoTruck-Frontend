@@ -7,7 +7,7 @@ export default function TacoCard({taco, onAddToOrder }) {
 return (
     <div className="Card">
         <h3>{name}</h3>
-        <img src={image} width="300" height="300"/>
+        <img src={image} width="300" height="300" alt=""/>
         <p>${price}</p>
         <p>{description}</p>
 
